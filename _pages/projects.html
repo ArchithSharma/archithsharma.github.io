@@ -1,14 +1,32 @@
 ---
 layout: archive
-title: "Portfolio"
-permalink: /portfolio/
+title: "Projects"
+permalink: /projects/
 author_profile: true
+redirect_from:
+  - /portfolio/
 ---
 
 {% include base_path %}
 
+{% comment %}
+  Each project in _projects/ sets `status: current` or `status: past` in its front matter,
+  and `order:` controls the order within a section.
+{% endcomment %}
+{% assign all_projects = site.projects | sort: 'order' %}
+{% assign current_projects = all_projects | where: 'status', 'current' %}
+{% assign past_projects = all_projects | where_exp: 'p', "p.status != 'current'" %}
 
-{% for post in site.portfolio %}
+{% if current_projects.size > 0 %}
+<h2 id="current-projects" class="archive__subtitle">Current Projects</h2>
+{% for post in current_projects %}
   {% include archive-single.html %}
 {% endfor %}
+{% endif %}
 
+{% if past_projects.size > 0 %}
+<h2 id="past-projects" class="archive__subtitle">Past Projects</h2>
+{% for post in past_projects %}
+  {% include archive-single.html %}
+{% endfor %}
+{% endif %}

@@ -1,14 +1,14 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Archith Sharma",
+    "email": "archiths@cmu.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://archithsharma.github.io",
+    "summary": "Currently employed at Carnegie Mellon University. Student Developer + Researcher @ CMU :)",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Pittsburgh, PA",
       "countryCode": "US",
       "region": ""
     },
@@ -16,17 +16,17 @@
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "url": "https://scholar.google.com/citations?user=taPQ3HAAAAAJ&hl=en"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "archithsharma",
+        "url": "https://github.com/archithsharma"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "archithsharma",
+        "url": "https://www.linkedin.com/in/archithsharma"
       }
     ]
   },
@@ -66,87 +66,71 @@
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Modeling American Kestrel Decline Using Spatiotemporal Subsampling to Improve eBird Data Reliability",
+      "publisher": "bioRxiv (preprint)",
+      "releaseDate": "2025-01-02",
+      "website": "/files/kestrel-decline-ebird-subsampling.pdf",
+      "summary": "Debiases eBird citizen-science data with spatiotemporal subsampling, then uses a time-series model to test whether rising Cooper's Hawk numbers help explain the American Kestrel decline."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Stats & Stumps: Using Machine Learning to Predict T20I Matches with Player and Venue Data",
+      "publisher": "Wharton Sports Analytics Journal",
+      "releaseDate": "2025-04-04",
+      "website": "/files/stats-and-stumps-t20i-prediction.pdf",
+      "summary": "Predicts Twenty20 International outcomes from venue-adjusted, player-level impact metrics. Regularized logistic regression reached 70.24% test accuracy on 1,029 matches."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
+      "name": "Speech",
+      "event": "",
       "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "location": "",
+      "description": "Watch the recording on YouTube."
+    },
+    {
+      "name": "Relationship lessons from the stock market",
+      "event": "TEDxYouth@TAMS",
+      "date": "2024-02-01",
+      "location": "Denton, TX, USA",
+      "description": "The similarities between investing in the stock market and success in human relationships."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Allegheny Land Trust: St. John's Citizen Science Analysis",
+      "category": "projects",
+      "date": "",
+      "url": "/projects/allegheny-land-trust/",
+      "description": "A data-for-good project with CMU Students Using Data for Good, measuring whether citizen-science activity around the Allegheny Land Trust's St. John's project has grown faster than state and county baselines. [Download the write-up (PDF)](/files/allegheny-land-trust-st-johns-analysis.pdf)"
+    },
+    {
+      "name": "CUSUM Portal: Spatio-Temporal Earthquake Anomaly Detection",
+      "category": "projects",
+      "date": "",
+      "url": "/projects/cusum-portal/",
+      "description": "An in-progress anomaly-detection portal that flags abnormal seismic swarms in live USGS earthquake data using spatio-temporal CUSUM change detection. Research with Dr. Woody Zhu, supported by SURF."
+    },
+    {
+      "name": "Geospatial Mobile Application for Emergency Response and Management",
+      "category": "projects",
+      "date": "",
+      "url": "/projects/geospatial-emergency-response-app/",
+      "description": "A location-based AR app for navigation and emergency response on the UNT campus, built on Google Photorealistic 3D Tiles and Cesium for Unity. Research in UNT's Data Visualization and eXtended Reality (DVXR) Lab."
+    },
+    {
+      "name": "NFL Big Data Bowl 2026: Ball Hawks",
+      "category": "projects",
+      "date": "",
+      "url": "/projects/nfl-big-data-bowl-ball-hawks/",
+      "description": "Measuring a defender's commitment to the ball when it is in the air and its impact on play outcomes. Submitted to the NFL Big Data Bowl on Kaggle."
+    },
+    {
+      "name": "TAMS Mock Election 2024",
+      "category": "projects",
+      "date": "",
+      "url": "/projects/tams-mock-election/",
+      "description": "A student-run mock election at the Texas Academy of Mathematics and Science: 115 voters, Texas-style ballot ordering, and a look at what ranked-choice voting can and can't fix. [Download the results write-up (PDF)](/files/tams-mock-election-results-2024.pdf)"
     }
   ]
 }
