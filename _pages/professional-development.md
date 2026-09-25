@@ -27,6 +27,11 @@ See the [Publications](/publications/) page for peer-reviewed and preprint work,
 
 **Soft Skills:** Public Speaking ([check out my talks!](/talks/)), Organization, Building Relationships, Mathematical Thinking
 
+## Current Student Organization Leadership
+- Founder/President, Birding@CMU
+- Board Member, CMU Sports Analytics Club
+- Project Manager, CMU Students Using Data for Social Good 
+
 ## Coursework
 
 ### Carnegie Mellon University

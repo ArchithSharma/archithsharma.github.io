@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "sunrise" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Archith Sharma / Personal Website"
 title_separator          : "-"
 name                     : &name "Archith Sharma"
@@ -23,10 +23,10 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Archith Sharma"
   pronouns         : # example: "she/her"  
-  bio              : "Student Developer + Researcher @ CMU :)"
+  bio              : "Student Developer + Researcher @ CMU :) I welcome all to reach out! Feel free to connect with me, and I welcome messages from strangers - the stranger the better!!! :)"
   location         : "Pittsburgh, PA"
   employer         : "Carnegie Mellon University"
   uri              : # URL
