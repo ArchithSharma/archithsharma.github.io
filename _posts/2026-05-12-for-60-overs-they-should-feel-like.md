@@ -35,14 +35,14 @@ The idea behind the feature engineering is that we want to see the current game 
 
 From the Cricinfo data, a Bayesian prior is calculated for each player’s average and strike rate before the match to estimate player strength. Note for bowling, the strike rate is the average number of balls it takes to get a wicket, while for batting, it’s simply 100 * runs/balls. **They are different statistics**. For batting and bowling averages, the same formula is used:
 
-*(The formula is shown in the [original post on Substack](https://archithsharma.substack.com/p/for-60-overs-they-should-feel-like).)* <!-- TODO: paste the formula here as $$...$$ -->
+ <!-- TODO: paste the formula here as $$...$$ -->
 
 $$Avg_{post} = \frac{k * \mu_{average} + R}
       {(k + W)}$$
 
 Where _W_ is the amount of dismissals/wickets for a bowler, and _R_ is the runs before a match. _Mu_ is the population average for that statistic during the corresponding calendar year. The more we learn about a player, the more the prior converges to the true average. For batting and bowling strike rate, where _B_ is the amount of balls a batsman faces or a bowler has bowled before a match:
 
-*(The formula is shown in the [original post on Substack](https://archithsharma.substack.com/p/for-60-overs-they-should-feel-like).)* <!-- TODO: paste the formula here as $$...$$ -->
+ <!-- TODO: paste the formula here as $$...$$ -->
 
 $$Batsr_{post} = \frac{k * \mu_{batsr} + 100 * R}{k + B}$$
 

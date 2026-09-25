@@ -6,6 +6,7 @@ excerpt: 'Predicts Twenty20 International outcomes from venue-adjusted, player-l
 date: 2025-04-04
 venue: 'Wharton Sports Analytics Journal'
 paperurl: '/files/stats-and-stumps-t20i-prediction.pdf'
+posterurl: '/files/cmsac_poster.pdf'
 citation: 'Sharma, A. (2025). &quot;Stats &amp; Stumps: Using Machine Learning to Predict T20I Matches with Player and Venue Data.&quot; <i>Wharton Sports Analytics Journal</i>.'
 ---
 

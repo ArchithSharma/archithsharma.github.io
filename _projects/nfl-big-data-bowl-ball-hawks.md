@@ -3,7 +3,7 @@ title: "NFL Big Data Bowl 2026: Ball Hawks"
 collection: projects
 status: past
 permalink: /projects/nfl-big-data-bowl-ball-hawks/
-order: 2
+order: 3
 excerpt: "Measuring a defender's commitment to the ball when it is in the air and its impact on play outcomes. Submitted to the NFL Big Data Bowl on Kaggle."
 ---
 
