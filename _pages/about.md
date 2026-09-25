@@ -17,6 +17,6 @@ Recent news
 ======
 - **July 2026:** Launched [Beyond the Box Score](https://archithsharma.substack.com/), an all-things-analytics blog for thsoe interested in the math behind decisions, especially in sport
 - **February 2026:** Selected for [CMU Summer Undergraduate Research Fellowship](https://www.cmu.edu/uro/summer%20research%20fellowships/SURF/index.html) under [Dr. Woody Zhu](https://www.andrew.cmu.edu/user/shixianz/)
-- **October 2025:** Presented [poster](https://archithsharma.github.io/files/cmsac_poster.pdf') at Carnegie Mellon Sports Analytics Conference
+- **October 2025:** Presented [poster](https://archithsharma.github.io/files/cmsac_poster.pdf) at Carnegie Mellon Sports Analytics Conference
 - **April 2025:** Stats and Stumps accepted for [Wharton Sports Analytics Journal](https://archithsharma.github.io/publication/2025-04-04-stats-and-stumps-t20i-prediction).
 
