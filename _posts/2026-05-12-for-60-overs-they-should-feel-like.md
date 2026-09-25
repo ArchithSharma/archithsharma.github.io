@@ -45,6 +45,7 @@ Where _W_ is the amount of dismissals/wickets for a bowler, and _R_ is the runs 
 *(The formula is shown in the [original post on Substack](https://archithsharma.substack.com/p/for-60-overs-they-should-feel-like).)* <!-- TODO: paste the formula here as $$...$$ -->
 
 $$Batsr_{post} = \frac{k * \mu_{batsr} + 100 * R}{k + B}$$
+
 $$Bowlsr_{post} = \frac{k * \mu_{bowlsr} + R}{k + B}$$
 
 In the examples of Virat Kohli’s batting average and Mitchell Starc’s bowling strike rate, you can see the averages fluctuate early in their careers, but as they become more established players, the priors become consistent with their career averages to that point. Experience is also treated as a feature, shared as a log transformed value of the number of innings a player batted/bowled in.

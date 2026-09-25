@@ -14,3 +14,5 @@ citation: 'Sharma, A. (2025). &quot;Stats &amp; Stumps: Using Machine Learning t
 Four modeling approaches were compared: a simple heuristic based on total player impact, logistic regression with regularization, random forests, and support vector machines (SVMs). Logistic regression achieved the highest test accuracy of 70.24%, balancing predictive performance with model interpretability. The final model was used to generate win probabilities for both past and unseen matches, including the 2024 T20 World Cup Final (India vs South Africa) and a March 2025 match between New Zealand and Pakistan.
 
 **Code:** [github.com/ArchithSharma/CricketPredictions](https://github.com/ArchithSharma/CricketPredictions)
+
+**Web App:** [anonymouscricket.shinyapps.io/Cricket-Analyzer/](https://anonymouscricket.shinyapps.io/Cricket-Analyzer/)

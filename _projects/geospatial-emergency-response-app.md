@@ -4,7 +4,6 @@ collection: projects
 status: past
 permalink: /projects/geospatial-emergency-response-app/
 order: 4
-link: https://ci.unt.edu/dvxr/research/ar/cesium.html
 excerpt: "A location-based AR app for navigation and emergency response on the UNT campus, built on Google Photorealistic 3D Tiles and Cesium for Unity. Research in UNT's Data Visualization and eXtended Reality (DVXR) Lab."
 ---
 
