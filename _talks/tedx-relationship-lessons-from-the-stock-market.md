@@ -7,9 +7,9 @@ permalink: /talks/tedx-relationship-lessons-from-the-stock-market
 venue: "TEDxYouth@TAMS"
 date: 2024-02-01
 location: "Denton, TX, USA"
-order: 2
+order: 1
 link: "https://www.youtube.com/watch?v=htjpdH2QSfA"
-excerpt: "The similarities between investing in the stock market and success in human relationships, presented at TEDxTAMS 2024."
+excerpt: "The similarities between investing in the stock market and success in human relationships."
 ---
 
 A TEDx Youth talk on the similarities between investing in the stock market and success in human relationships.

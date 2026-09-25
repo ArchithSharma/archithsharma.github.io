@@ -21,7 +21,7 @@ England were rattled 120 all out with Siraj and Bumrah picking up 7 wickets betw
 
 Despite not bowling a single ball and scoring a measly 11% of his team’s runs batting at #4, this match is brought up as Kohli’s crowning achievement as captain of the Indian Test side. As an analytical mind, the natural next step was to wonder: “How much of this can actually be attributed to Kohli? How can we quantify it?”
 
-I attempt to explore the question of the effect of captaincy in Test cricket as best I can with the help of [Himanish Ganjoo's](https://himanishganjoo.com/cricket-data/) Ball-by-Ball dataset with line/length, [Bhuvanesh Prasad's](https://bhuvaneshprasad.dev/) Test match dataset, and Cricinfo data. <!-- TODO: the original credits two Substack authors by @mention (lost in the markdown export). Add their names/links here. --> If you enjoyed it, [subscribe on Substack](https://archithsharma.substack.com/subscribe) and share my work with your friends! :)
+I attempt to explore the question of the effect of captaincy in Test cricket as best I can with the help of a Ball-by-Ball dataset with line/length, a Test match dataset, and Cricinfo data. <!-- TODO: the original credits two Substack authors by @mention (lost in the markdown export). Add their names/links here. --> If you enjoyed it, [subscribe on Substack](https://archithsharma.substack.com/subscribe) and share my work with your friends! :)
 
 * * *
 
@@ -36,14 +36,10 @@ The idea behind the feature engineering is that we want to see the current game 
 From the Cricinfo data, a Bayesian prior is calculated for each player’s average and strike rate before the match to estimate player strength. Note for bowling, the strike rate is the average number of balls it takes to get a wicket, while for batting, it’s simply 100 * runs/balls. **They are different statistics**. For batting and bowling averages, the same formula is used:
 
 *(The formula is shown in the [original post on Substack](https://archithsharma.substack.com/p/for-60-overs-they-should-feel-like).)* <!-- TODO: paste the formula here as $$...$$ -->
-$$Avg_{post} = \frac{k * \mu_{average} + R}
-      {(k + W)}$$
 
 Where _W_ is the amount of dismissals/wickets for a bowler, and _R_ is the runs before a match. _Mu_ is the population average for that statistic during the corresponding calendar year. The more we learn about a player, the more the prior converges to the true average. For batting and bowling strike rate, where _B_ is the amount of balls a batsman faces or a bowler has bowled before a match:
 
 *(The formula is shown in the [original post on Substack](https://archithsharma.substack.com/p/for-60-overs-they-should-feel-like).)* <!-- TODO: paste the formula here as $$...$$ -->
-$$Batsr_{post} = \frac{k * \mu_{batsr} + 100 * R}{k + B}$$
-$$Bowlsr_{post} = \frac{k * \mu_{bowlsr} + R}{k + B}$$
 
 In the examples of Virat Kohli’s batting average and Mitchell Starc’s bowling strike rate, you can see the averages fluctuate early in their careers, but as they become more established players, the priors become consistent with their career averages to that point. Experience is also treated as a feature, shared as a log transformed value of the number of innings a player batted/bowled in.
 

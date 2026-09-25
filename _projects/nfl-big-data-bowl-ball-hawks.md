@@ -8,8 +8,8 @@ link: https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-analytics/write
 excerpt: "Measuring a defender's commitment to the ball when it is in the air and its impact on play outcomes. Submitted to the NFL Big Data Bowl on Kaggle."
 ---
 
-Our submission to the NFL Big Data Bowl 2026: **measuring a defender's commitment to the ball when it is in the air, and its impact on play outcomes.**
+Our submission to the NFL Big Data Bowl: **measuring a defender's commitment to the ball when it is in the air, and its impact on play outcomes.**
 
-Built with [Theresa Pham](https://www.linkedin.com/in/theresap90/). <!-- TODO: replace PARTNER NAME and the LinkedIn URL above -->
+Built with [PARTNER NAME](https://www.linkedin.com/in/PARTNER-LINKEDIN-USERNAME/). <!-- TODO: replace PARTNER NAME and the LinkedIn URL above -->
 
 The full write-up is on Kaggle (see the button below).

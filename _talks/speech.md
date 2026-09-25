@@ -1,12 +1,11 @@
 ---
-title: "Luck can be a Funny Thing"
+title: "Speech"
 collection: talks
 type: "Speech"
 permalink: /talks/speech
-venue: TAMS Rosecutting
-order: 1
+order: 2
 link: "https://youtu.be/P1zLROBnEqI"
-excerpt: "The lessons we can take from statistics to our lives."
+excerpt: "Watch the recording on YouTube."
 ---
 <!-- TODO: set the real title, venue, location and date in this file's front matter, and add a one-line description below. -->
 

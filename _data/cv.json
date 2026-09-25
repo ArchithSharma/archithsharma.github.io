@@ -30,37 +30,92 @@
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "CMU Heinz College of Information Systems and Public Policy",
+      "position": "Research Assistant",
+      "website": "",
+      "startDate": "2025",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Ongoing research with Dr. Woody Zhu on deep-learning methods in earthquake detection",
+        "Developing an extension of CUSUM (Cumulative Sum Statistic for distribution change) to multiple data sources \u2014 see the [CUSUM Portal](/projects/cusum-portal/) project page",
+        "Supported by the CMU Summer Undergraduate Research Fellowship (SURF)"
+      ]
+    },
+    {
+      "company": "University of North Texas (UNT)",
+      "position": "Research Assistant",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Conducted research with Dr. Junhyeon Kwon on bird population models for conservation action",
+        "Developed a synthetic simulation framework and ARMA & ARDL time-series tools using R and R Markdown \u2014 published as [Modeling American Kestrel Decline Using Spatiotemporal Subsampling to Improve eBird Data Reliability](/publication/2025-01-02-kestrel-decline-ebird-subsampling)"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Carnegie Mellon University",
+      "area": "B.S. in Statistics & Machine Learning",
       "studyType": "",
       "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "endDate": "2028",
+      "gpa": "3.5",
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Technical",
+      "level": "",
+      "keywords": [
+        "R",
+        "Python",
+        "HTML",
+        "LaTeX",
+        "Java",
+        "C",
+        "C++",
+        "C#",
+        "MATLAB"
+      ]
+    },
+    {
+      "name": "Software",
+      "level": "",
+      "keywords": [
+        "Tidyverse",
+        "PyTorch",
+        "Pandas",
+        "Object-Oriented Programming (OOP)",
+        "Unity",
+        "Shiny"
+      ]
+    },
+    {
+      "name": "Analysis",
+      "level": "",
+      "keywords": [
+        "Mathematical Modeling",
+        "Contextual Thinking",
+        "Data Wrangling"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "level": "",
+      "keywords": [
+        "Public Speaking",
+        "Organization",
+        "Building Relationships",
+        "Mathematical Thinking"
+      ]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
