@@ -3,7 +3,7 @@ title: "TAMS Mock Election 2024"
 collection: projects
 status: past
 permalink: /projects/tams-mock-election/
-order: 3
+order: 4
 excerpt: "A student-run mock election at the Texas Academy of Mathematics and Science: 115 voters, Texas-style ballot ordering, and a look at what ranked-choice voting can and can't fix. [Download the results write-up (PDF)](/files/tams-mock-election-results-2024.pdf)"
 ---
 
